@@ -2,9 +2,37 @@
 <html lang="en">
     <head>
         <title>My Site</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            div {
+                border: 1px solid black;
+                background-color: orange;
+                width: 200px;
+                height: 200px;
+                padding: 20px;
+                margin: 20px;
+                font-size: 28px;
+                font-weight: bold;
+            }
+            #foo {
+                color: blueviolet;
+            }
+            .baz {
+                color: brown;
+            }
+        </style>
     </head>
     <body>
         <h1>This is my GitHub Pages Website!</h1>
-        <h2>This is header2</h2>
+        <h2 id="foo">This is header2</h2>
+        <h2 class="baz">A heading</h2>
+        <h2 class="baz">A final heading</h2>
+        <div>
+            Hello, world!
+        </div>
+        Some more text.
+        <div>
+            Another division
+        </div>
     </body>
 </html>
