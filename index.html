@@ -20,6 +20,18 @@
             .baz {
                 color: brown;
             }
+
+            @media (min-width: 600px) {
+                body {
+                    background-color: palegoldenrod;
+                }
+            }
+
+            @media(max-width: 599px){
+                body {
+                    background-color: palevioletred;
+                }
+            }
         </style>
     </head>
     <body>
@@ -34,5 +46,8 @@
         <div>
             Another division
         </div>
+        <button>Click Me</button>
+
+
     </body>
 </html>
